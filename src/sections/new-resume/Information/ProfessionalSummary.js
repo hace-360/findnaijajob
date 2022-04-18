@@ -13,9 +13,6 @@ export default function ProfessionalSummary () {
                 <Typography variant= 'h3'>
                     Briefly tell us about your background
                 </Typography>
-                {/* <Typography variant= 'body1'>
-                    Use the samples below, and tailor them to fit your experience and the role.
-                </Typography> */}
             </Stack>
 
             <Stack direction= 'row' divider= {<Divider orientation="vertical" flexItem />}>
