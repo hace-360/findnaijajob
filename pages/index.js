@@ -47,7 +47,7 @@ export default function CareerLandingPage() {
 
       {/* { !user || user?.accountType == 'applicant' && <CareerLandingStep />} */}
 
-      <CareerLandingFeaturedJobs jobs={jobs.slice(0, 5) || []} />
+      {jobs && jobs.length > 0 && <CareerLandingFeaturedJobs jobs={jobs.slice(0, 5) || []} />}
 
       {/* <CareerLandingTopCompanies companies={_jobsByCompanies} /> */}
 
