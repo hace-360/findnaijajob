@@ -1,0 +1,79 @@
+.template1 {
+    display: flex;
+    width: 100%;
+    max-width: 800px;
+    background-color: white;
+    border-radius: 5px;
+    color: rgb(60, 59, 77);
+    flex-direction: column;
+
+    h4 {
+        font-family: 'Baloo Bhai 2';
+        text-transform: uppercase;
+    }
+    h5 {
+        font-family: 'Baloo Bhai 2';
+        text-transform: uppercase;
+        font-size: 12px;
+        display: flex;
+        align-items: flex-start;
+        justify-content: flex-start;
+        width: 100%;
+        padding-left: 10px;
+
+        p{
+            text-transform: none;
+        }
+    }
+    ul {
+        display: flex;
+        width: 100%;
+        margin: 0;
+        flex-direction: column;
+    }
+    li{
+        font-weight: 500;
+        font-size: 12px;
+        margin-left: 30px;
+        text-transform: capitalize;
+    }
+
+    p{
+        font-weight: 500;
+        font-size: 12px;
+    }
+
+    header {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 30px;
+
+        >div {
+            display: flex;
+            width: fit-content;
+            flex-direction: column;
+
+            >h1 {
+                text-align: left;
+                // font-family: 'Baloo Bhai 2';
+                font-size: 35px;
+                font-weight: 600;
+                text-transform: capitalize;
+                line-height: 35px;
+            }
+            h4 {
+                font-family: 'Baloo Bhai 2';
+                margin-top: 10px;
+                text-transform: uppercase;
+            }
+            span {
+                display: flex;
+                align-items: center;
+                width: fit-content;
+            }
+        }
+
+    }
+}
