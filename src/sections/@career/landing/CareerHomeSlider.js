@@ -101,7 +101,7 @@ function CareerHomeSlider() {
   return (
     <RootStyle>
 
-      <SummarySection />
+      {/* <SummarySection /> */}
 
       <AutoPlaySwipeableViews
         axis={theme.direction === 'rtl' ? 'x-reverse' : 'x'}
