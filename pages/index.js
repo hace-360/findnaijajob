@@ -40,7 +40,7 @@ export default function CareerLandingPage() {
 
   return (
     <Page 
-      title="Home Page -"
+      title="Home -"
     >
       {/* <CareerLandingHero /> */}
       <CareerHomeSlider />

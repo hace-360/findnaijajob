@@ -1,5 +1,6 @@
 import * as Yup from 'yup';
 import { useForm, Controller } from 'react-hook-form';
+import PropTypes from 'prop-types'
 import { yupResolver } from '@hookform/resolvers/yup/dist/yup';
 // @mui
 import { LoadingButton } from '@mui/lab';
@@ -12,7 +13,12 @@ const FormSchema = Yup.object().shape({
   code: Yup.array().of(Yup.string().required()),
 });
 
-export default function VerifyCodeForm() {
+// VerifyCodeForm.prototype = {
+//   control: PropTypes.node,
+//   isSubmitting: PropTypes.bool
+// }
+
+export default function VerifyCodeForm({control, isSubmitting}) {
 
   
 

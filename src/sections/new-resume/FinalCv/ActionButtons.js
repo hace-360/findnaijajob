@@ -35,9 +35,9 @@ export function PrintButton ({componentRef}) {
       })
     //   
     const handlePrint = () => {
-        if (!subscription || !subscription.active) {
-            return router.push('/payment')
-        }
+        // if (!subscription || !subscription.active) {
+        //     return router.push('/payment')
+        // }
         if (!user) {
             return router.push('/account/login')
         }
